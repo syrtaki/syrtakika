@@ -1,0 +1,16 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+  background-color: #001489;
+  }
+
+.Logo {
+  text-align: center;
+  }
+
+.maiandros {
+  background-repeat: repeat-x;
+  background-image: url("/maiandros2.png");
+  height: 21px;
+  width: 100%;
+}
