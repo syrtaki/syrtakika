@@ -16,9 +16,9 @@
 }
 
 .menu {
+  display: inline;
   color: #FFFFFF;
   background-color: #000000;
-  float: left;
   border: none;
   outline: none;
   cursor: pointer;
