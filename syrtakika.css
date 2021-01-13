@@ -24,6 +24,6 @@
   transition: 0.3s;
   }
 
-#menu {
+ul#menu li {
   display: inline;
   }
