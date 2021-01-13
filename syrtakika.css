@@ -15,12 +15,15 @@
   width: 100%;
 }
 
-.menu {
-  display: inline;
+.menu button {
   color: #FFFFFF;
   background-color: #000000;
   border: none;
   outline: none;
   cursor: pointer;
   transition: 0.3s;
+  }
+
+.menu ul {
+  display: inline;
   }
