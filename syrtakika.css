@@ -13,7 +13,23 @@
   background-image: url("maiandros2.png");
   height: 21px;
   width: 100%;
-}
+  }
+
+.menu div {
+  width: 100%;
+  font-size: medium;
+  }
+
+.menu ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0px;
+  }
+  
+.menu li {
+  display: inline;
+  text-align: center;
+  }
 
 .menu button {
   color: #FFFFFF;
@@ -21,9 +37,14 @@
   border: none;
   outline: none;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.8s;
+  margin: 0;
+  padding: 5px 12px 5px;
+  border-color: #FFFFFF;
+  font-weight: bold;
   }
 
-ul#menu li {
-  display: inline;
+.menu button:hover {
+  background-color: #FFFFFF;
+  color: #001489;
   }
