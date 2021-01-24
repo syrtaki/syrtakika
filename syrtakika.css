@@ -1,3 +1,8 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  }
+
 .body {
   font-family: Arial, Helvetica, sans-serif;
   color: #FFFFFF;
@@ -10,9 +15,11 @@
 
 .maiandros {
   background-repeat: repeat-x;
-  background-image: url("maiandros2.png");
+  background-image: url("maiandros3.png");
   height: 21px;
   width: 100%;
+  margin: 0px;
+  padding: 0px;
   }
 
 .menu div {
@@ -48,3 +55,163 @@
   background-color: #FFFFFF;
   color: #001489;
   }
+
+ .maingrid {
+  display: grid;
+  grid-template-columns: 1f;
+  grid-template-rows: auto auto auto 413px auto;
+  grid-gap: 30px;
+  padding: 10px;
+  color: #000000;
+  grid-template-areas:
+    "mainpic"
+    "news"
+    "story"
+    "slideshow"
+    "blok5";
+  }
+
+.mainpic {
+  grid-area: mainpic;
+  justify-self: center;
+  background-color: #000000;
+  border: 1px solid #acacac;
+  }
+
+.news {
+  grid-area: news;
+  justify-self: center;
+  text-align: center;
+  background-color: #f65555;
+  border-radius: 25px;
+  border: 2px solid #FFFFFF;
+  padding: 20px;
+  width: 90%;
+  }
+
+.story {
+  grid-area: story;
+  justify-self: center;
+  background-color: #acacac;
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid #FFFFFF;
+  padding: 20px;
+  width: 70%;
+  }
+
+.slideshow {
+  grid-area: slideshow;
+  justify-self: center;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+  width: 90%;
+  max-width: 550px;
+  }
+
+.blok5 {
+  grid-area: blok5;
+  justify-self: center;
+  background-color: #acacac;
+  border-radius: 25px;
+  border: 2px solid #FFFFFF;
+  padding: 20px;
+  }
+
+.footergrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  grid-template-areas:
+    "kontakt zeiten";
+  padding: 15px 0px 30px;
+  font-size: 80%;
+  }
+
+.kontakt {
+  grid-area: kontakt;
+  justify-self: center;
+  text-align: center;
+  }
+
+.zeiten {
+  grid-area: zeiten;
+  justify-self: center;
+  }
+
+.slideshow img {
+  position:absolute;
+  width: 100%;
+  max-width: 550px;
+  height: auto;
+}
+@-webkit-keyframes xfade {
+  0% {
+    opacity: 1;
+  }
+  12.5% {
+    opacity:1;
+  }
+  16.5% {
+    opacity:0;
+  }
+  96% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@keyframes xfade {
+  0% {
+    opacity: 1;
+  }
+  12.5% {
+    opacity:1;
+  }
+  16.5% {
+    opacity:0;
+  }
+  96% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.slideshow img:nth-child(8) {
+    -webkit-animation: xfade 40s 0s infinite;
+    animation: xfade 40s 0s infinite;
+}
+.slideshow img:nth-child(7) {
+    -webkit-animation: xfade 40s 5s infinite;
+    animation: xfade 40s 5s infinite;
+}
+.slideshow img:nth-child(6) {
+    -webkit-animation: xfade 40s 10s infinite;
+    animation: xfade 40s 10s infinite;
+}
+.slideshow img:nth-child(5) {
+    -webkit-animation: xfade 40s 15s infinite;
+    animation: xfade 40s 15s infinite;
+}
+.slideshow img:nth-child(4) {
+    -webkit-animation: xfade 40s 20s infinite;
+    animation: xfade 40s 20s infinite;
+}
+.slideshow img:nth-child(3) {
+    -webkit-animation: xfade 40s 25s infinite;
+    animation: xfade 40s 25s infinite;
+}
+.slideshow img:nth-child(2) {
+    -webkit-animation: xfade 40s 30s infinite;
+    animation: xfade 40s 30s infinite;
+}
+.slideshow img:nth-child(1) {
+    -webkit-animation: xfade 40s 35s infinite;
+    animation: xfade 40s 35s infinite;
+}
